@@ -30,6 +30,13 @@ module.exports = [
   msg:        'Bancor. The sale has ended. Please do not send anymore. The network is borked enough as it is.'
 },
 {
+  // TenX PAY
+  to:         '0xd43d09ec1bc5e57c8f3d0c64020d403b04c7f783',
+  gasLimit:   130000,
+  data:       '',
+  msg:        'TenX PAY Token Sale. Start: June 24, 2017, 1pm UTC'
+},
+{
   // SuperDao
   to:         '0x0000',
   gasLimit:   200000,
